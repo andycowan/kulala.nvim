@@ -38,8 +38,7 @@ end
 --- Neovim does not rescan rtp for parser/queries added mid-session. Re-appending
 --- the site dir refreshes discovery after a fresh install/build.
 local function ensure_site_rtp()
-  vim.opt.rtp:remove(site_dir)
-  vim.opt.rtp:append(site_dir)
+  if not vim.list_contains(vim.opt.rtp:get(), site_dir) then vim.opt.rtp:append(site_dir) end
 end
 
 local function sync_queries()

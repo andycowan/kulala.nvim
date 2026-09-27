@@ -8,7 +8,7 @@ local Shell = require("kulala.cmd.shell_utils")
 
 local M = {}
 
-local kulala_repo = "mistweaverco/kulala.nvim"
+local kulala_repo = "andycowan/kulala.nvim"
 
 local template = [[
 

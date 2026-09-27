@@ -1,3 +1,5 @@
+> Personal recovery fork maintained by andycowan. See [RECOVERY.md](RECOVERY.md) for provenance, supported platforms and limitations.
+
 <div align="center">
 
 ![Kulala Logo](logo.svg)
